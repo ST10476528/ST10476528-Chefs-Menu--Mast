@@ -79,6 +79,9 @@ npx expo start -c
 - **Async Storage or server API** – for persisting favorites/cart in a real app (optional).
 
 > This README keeps the stack intentionally flexible—pick the navigation and state tools you prefer.
+---
+## Yt Video
+https://youtube.com/shorts/6EKlB5veV4o?si=Xd-Jkus9tCwXv4AC
 
 ---
 
@@ -109,7 +112,7 @@ Category list showing items with price, ratings, and an **Add Item** card.
 
 
 ### 4) **Add Item Form**
-Upload an image, enter price and description, and submit.
+Upload an image, enter the price and description, and submit.
 ![Add Item Form]
 ===
 <img width="448" height="887" alt="Screenshot 2025-10-22 at 22 19 16" src="https://github.com/user-attachments/assets/6afa9b52-25f5-490a-bff8-55978212e5fc" />
@@ -165,6 +168,68 @@ Line‑items with quantity steppers, subtotal + delivery + total, and checkout b
 - Prices shown in screenshots use **R** (South African Rand) for demo purposes—change `currency` formatting for your region.
 - The **Spicy** slider is a purely client‑side preference control; wire it to your model or filters as needed.
 - The **Add Item** flow can be restricted to authorized users (e.g., behind an admin route or role check).
+
+---
+Expo Documentation
+Official guide for developing with Expo and React Native.
+https://docs.expo.dev/
+
+React Native Official Documentation
+Core framework reference for building cross-platform apps.
+https://reactnative.dev/docs/getting-started
+
+React Navigation
+Used for routing and navigation between screens.
+https://reactnavigation.org/
+
+Expo Image Picker
+For selecting or capturing dish images in the Add Item flow.
+https://docs.expo.dev/versions/latest/sdk/imagepicker/
+
+React Native Elements / Paper / UI Kitten
+UI inspiration and components for building card-based menus and modals.
+https://reactnativeelements.com/
+
+https://callstack.github.io/react-native-paper/
+
+Design Inspiration
+
+Dribbble: Minimal Food Ordering UI Concepts
+https://dribbble.com/tags/food_order_app
+
+Behance: Chef Menu App Mockups
+https://www.behance.net/search/projects?search=food+ordering+app
+
+Typography and Colors
+
+Font style inspired by Playfair Display and similar script fonts for “Chef’s Menu” heading.
+
+Color scheme: #E74C3C (red accent), #1C1C1C (text), #F8F8F8 (background).
+
+Development Tools
+
+VS Code for coding and debugging.
+
+Expo Go for live preview on mobile.
+
+Android Studio / Xcode Simulator for device testing.
+
+Screenshots
+All screenshots were captured from the app built on 22 October 2025 for demonstration purposes:
+
+Screenshot 2025-10-22 at 22.17.46.png – Success Modal
+
+Screenshot 2025-10-22 at 22.18.10.png – Add Item (Main Dish List)
+
+Screenshot 2025-10-22 at 22.18.35.png – Item Details (Cheeseburger)
+
+Screenshot 2025-10-22 at 22.19.16.png – Cart View
+
+Screenshot 2025-10-22 at 22.22.05.png – Add Item Form
+
+Screenshot 2025-10-22 at 22.22.21.png – Chef’s Menu Splash
+
+Screenshot 2025-10-22 at 22.24.52.png – Main Menu Grid
 
 ---
 
