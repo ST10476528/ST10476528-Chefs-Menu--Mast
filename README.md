@@ -1,6 +1,9 @@
 # ST10476528-Chefs-Menu--Mast
 # Chef’s Menu (Expo / React Native)
 
+#Github repo
+https://github.com/ST10476528/ST10476528-Chefs-Menu--Mast.git
+
 A simple, elegant food ordering demo built with Expo. Users can explore menu items, view details, favorite dishes, add items to a cart, and simulate checkout. There’s also a lightweight “Add Item” (admin-style) flow that lets you attach an image, set a price, and provide a description—finishing with a friendly success screen.
 
 ---
